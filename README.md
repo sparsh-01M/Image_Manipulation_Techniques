@@ -14,3 +14,8 @@ In this repository we will apply various image processing operations, and try to
 - Smoothened image is then filtered with a Sobel kernel in both horizontal and vertical direction to get first derivative in horizontal direction (Gx) and vertical direction (Gy). From these two images, we can find edge gradient and direction for each pixel as follows:
 
  
+# blur_grayscale_vertical-edge_otsu_morpho
+- This file is a part of a project used to detect car number plate in a live video by using open cv. Details about the program is there in the code in theform of comments.
+- Changes will be done on the daily basis to make this project a good one.
+
+- Contributions are greeted.
