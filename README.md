@@ -13,5 +13,14 @@ In this repository we will apply various image processing operations, and try to
 - Finding Intensity Gradient of the Image
 - Smoothened image is then filtered with a Sobel kernel in both horizontal and vertical direction to get first derivative in horizontal direction (Gx) and vertical direction (Gy). From these two images, we can find edge gradient and direction for each pixel as follows:
 
- 
+# Noise Models
+In image processing, noise refers to the random variation of brightness or color information in images and is usually unwanted. Different noise models are used to simulate various types of noise that can affect digital images. Here are general definitions for some common noise models:
 
+# 1. Gaussian Noise (Normal Noise)
+Gaussian noise is statistical noise with a probability density function (PDF) equal to that of the normal distribution, also known as the Gaussian distribution. It is characterized by its mean (average value) and standard deviation (spread or variance). Gaussian noise affects each pixel in the image in a way that the overall distribution of the noise follows a Gaussian curve.
+
+# 2. Salt-and-Pepper Noise (Impulse Noise)
+Salt-and-pepper noise presents itself as sparsely occurring white and black pixels. This type of noise is also known as impulse noise because the corrupted pixels are either set to the maximum value (salt) or the minimum value (pepper). It typically occurs due to sharp and sudden disturbances in the image signal.
+
+# 3. Uniform Noise
+Uniform noise has a constant PDF. It means that every value in the range of possible noise values has an equal probability of occurring. It can be represented as noise uniformly distributed over a particular range.
