@@ -24,3 +24,15 @@ Salt-and-pepper noise presents itself as sparsely occurring white and black pixe
 
 # 3. Uniform Noise
 Uniform noise has a constant PDF. It means that every value in the range of possible noise values has an equal probability of occurring. It can be represented as noise uniformly distributed over a particular range.
+
+# Image Addition, Subtraction, Multiplication, Division, and Alpha Blending
+
+- Alpha Blending: A technique in computer graphics where two images are combined by considering their alpha channels (opacity). The resulting image is a blend based on the transparency levels of each pixel.
+
+- Addition: Combining two images by adding the pixel values of the corresponding pixels. This can increase the brightness and contrast of the resulting image.
+
+- Subtraction: Combining two images by subtracting the pixel values of one image from the corresponding pixels of the other. This can be used to highlight differences between images.
+
+- Multiply: Combining two images by multiplying the pixel values of corresponding pixels. This can darken the resulting image and is often used to create shadow effects.
+
+- Division: Combining two images by dividing the pixel values of one image by the corresponding pixels of the other. This can be used for normalization or to highlight areas with similar intensities.
