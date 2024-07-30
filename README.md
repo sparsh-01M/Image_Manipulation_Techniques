@@ -36,3 +36,15 @@ Uniform noise has a constant PDF. It means that every value in the range of poss
 - Multiply: Combining two images by multiplying the pixel values of corresponding pixels. This can darken the resulting image and is often used to create shadow effects.
 
 - Division: Combining two images by dividing the pixel values of one image by the corresponding pixels of the other. This can be used for normalization or to highlight areas with similar intensities.
+
+# Color Map:
+This script demonstrates a simple image processing workflow using OpenCV and Matplotlib in Python. The script performs the following steps:
+
+Reading the RGB Image: The image is read from the specified file path using OpenCV's cv2.imread function.
+Converting to Grayscale: The RGB image is converted to a grayscale image using the cv2.cvtColor function with the cv2.COLOR_BGR2GRAY flag.
+Applying a Colormap: A colormap (specifically, the JET colormap) is applied to the grayscale image using the cv2.applyColorMap function. This step enhances the visualization of different intensity levels in the grayscale image.
+Displaying Images: The original RGB image and the heatmap image are displayed side by side using Matplotlib. The plt.subplot function is used to create a subplot layout, and the images are displayed without axes for a cleaner presentation.
+This script is useful for visualizing intensity variations in grayscale images and can be extended for various image processing applications such as heatmap generation, feature extraction, and more. To run this script, ensure you have OpenCV and Matplotlib installed in your Python environment.
+
+# Pyramid
+In image processing, a pyramid is a multi-scale representation of an image. This technique involves creating a series of images, each one a lower resolution (and typically smaller in size) than the previous. Pyramids are useful in various applications such as image compression, image recognition, and computer vision tasks like object detection.
